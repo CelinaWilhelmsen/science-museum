@@ -1,0 +1,373 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4b122d;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-family: "Darumadrop One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+/********************************************************************************/
+/*HEADER*/
+/********************************************************************************/
+
+.header {
+  background-color: #edf1cb;
+  height: 7rem;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  text-transform: uppercase;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.logo_header_img {
+  border: 2px solid white;
+  width: 250px;
+}
+
+/********************************************************************************/
+/*FOOTER*/
+/********************************************************************************/
+.footer {
+  background-color: #edf1cb;
+  display: flex;
+  height: 12rem;
+  width: 90%;
+  padding-inline: 5%;
+  margin-top: 2rem;
+}
+.footer_left {
+  align-content: center;
+  width: 50%;
+}
+.logo_footer_img {
+  border: 2px solid white;
+  width: 230px;
+}
+.footer_icons_box {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+}
+.footer_icons {
+  font-size: 1.8rem;
+}
+.nav_footer_header {
+  font-family: "Darumadrop One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+.nav_footer {
+  line-height: 1.5rem;
+}
+.footer_right {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25rem;
+}
+.footer_right_one {
+  text-align: center;
+  align-content: center;
+}
+.footer_right_two {
+  text-align: center;
+  align-content: center;
+}
+.footer_right_three {
+  text-align: center;
+  align-content: center;
+}
+
+/********************************************************************************/
+/*INDEX.HTML*/
+/********************************************************************************/
+
+.top_img_front {
+  background-image: url(images/exhibition-1863344_1920.jpg);
+  height: 50rem;
+  width: 100%;
+  background-size: cover;
+}
+.side_box {
+  background-color: #dfecf9;
+  width: 40%;
+  height: 30rem;
+  padding: 2rem;
+  padding-top: 3rem;
+  margin-left: 4rem;
+  margin-top: -30rem;
+  font-size: 1.5rem;
+  align-content: center;
+  position: absolute;
+}
+.side_box_text {
+  text-align: center;
+  padding: 0.8rem;
+  line-height: 3rem;
+}
+.box_top {
+  height: 45rem;
+  width: 100%;
+  background-color: #d6d96b;
+  display: flex;
+  justify-content: center;
+}
+.box_top_img {
+  width: 100%;
+}
+.box_top_left {
+  width: 45rem;
+  align-content: center;
+  text-align: center;
+  padding-inline: 5rem;
+}
+.box_top_right {
+  width: 45rem;
+  align-content: center;
+  padding-inline: 5rem;
+}
+.box_top_text {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  line-height: 3rem;
+}
+.button_explore {
+  background-color: #a34d74;
+  color: white;
+  font-family: "Darumadrop One", serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 3.5rem;
+  width: 10rem;
+  border: none;
+  border-radius: 0.6rem;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.three_boxes {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-inline: 5%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.box_one {
+  object-fit: cover;
+  overflow: hidden;
+  height: 19rem;
+}
+.box_two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f89a5a;
+  width: 30rem;
+  height: 19rem;
+}
+.box_three {
+  height: 19rem;
+  overflow: hidden;
+}
+.icon_youtube {
+  color: #edf1cb;
+  width: 10rem;
+  height: 10rem;
+  align-self: center;
+}
+.box_two_txt {
+  color: #edf1cb;
+  font-family: "Darumadrop One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.three_box_img {
+  width: 30rem;
+}
+.front_box_txt {
+  background-color: #dfecf9;
+  height: 25rem;
+  width: 100%;
+  align-content: center;
+}
+.front_txt {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+  padding-inline: 4rem;
+  padding-bottom: 5rem;
+}
+.sentered_img_top {
+  width: 90%;
+  margin-inline: 5%;
+  height: 40rem;
+  object-fit: cover;
+  margin-top: -5rem;
+}
+.txt_section_front {
+  background-color: #dfecf9;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+.txt_section_header {
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+}
+.txt_section_txt {
+  line-height: 3rem;
+  padding-inline: 4rem;
+}
+.sentered_img {
+  width: 90%;
+  margin-inline: 5%;
+  height: 25rem;
+  object-fit: cover;
+}
+
+/********************************************************************************/
+/*CONTACT.html*/
+/********************************************************************************/
+
+.top_opening_hours {
+  width: 90%;
+  padding-inline: 5%;
+  display: flex;
+  height: 35rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #a34d74;
+}
+.opening_hours_h1 {
+  color: #a34d74;
+  padding-bottom: 2rem;
+}
+.opening_hours {
+  width: 35%;
+  background-color: #dfecf9;
+  text-align: center;
+  align-content: center;
+}
+.opening_hours_txt {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+  color: #a34d74;
+}
+.top_opening_hours_img {
+  width: 65%;
+  overflow: hidden;
+  padding-left: 2rem;
+}
+.opening_hours_img {
+  width: 100%;
+  object-fit: cover;
+}
+.txt_section_contact {
+  background-color: #d6d96b;
+  text-align: center;
+  align-content: center;
+  width: 90%;
+  padding-inline: 5%;
+  padding-top: 3.5rem;
+  padding-bottom: 7.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+.txt_section_header_contatct {
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+}
+.txt_section_txt_contact {
+  line-height: 3rem;
+  padding-inline: 4rem;
+}
+.contact_form {
+  margin-top: 2rem;
+  background-color: #bed4ee;
+  display: flex;
+  flex-direction: column;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+.form_h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.form_box {
+}
+
+input {
+  width: 50%;
+  height: 1.5rem;
+  border: none;
+}
+.input_message {
+  height: 10rem;
+}
+.input_all {
+}
+.img_boxes_contact {
+  width: 90%;
+  padding-inline: 5%;
+  display: flex;
+  height: 20rem;
+}
+.boxes_contact {
+  width: 35%;
+  background-color: #f89a5a;
+  text-align: center;
+  align-content: center;
+  color: #edf1cb;
+}
+.h1_contact {
+  font-size: 5rem;
+  color: #edf1cb;
+}
+.txt_contact {
+  font-size: 2rem;
+  font-family: "Darumadrop One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #edf1cb;
+}
+.contact_img {
+  width: 65%;
+  overflow: hidden;
+  padding-left: 2rem;
+}
+.contact_img_img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/********************************************************************************/
+/*EXHIBITIONS.html*/
+/********************************************************************************/
