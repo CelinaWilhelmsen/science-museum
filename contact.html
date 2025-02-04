@@ -12,6 +12,7 @@
     <meta name="description" content="Community Science Museum Homepage" />
     <title>Contact</title>
     <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="media.css" type="text/css"/>
   </head>
   <body>
     <header class="header">
@@ -28,6 +29,30 @@
 
         <a href="exhibitions.html" class="nav_right">exhibitions</a>
         <a href="document.html" class="nav_right">documents</a>
+      </nav>
+    </header>
+    <header class="header_phone">
+      <nav class="navbar_phone">
+        <a href="contact.html" class="nav_icon_phone"
+          ><ion-icon class="nav_icon" name="call-outline"></ion-icon>
+          <div class="nav_phone_txt">contact</div></a
+        >
+        <a href="contribution.html" class="nav_icon_phone"
+          ><ion-icon class="nav_icon" name="accessibility-outline"></ion-icon>
+          <div class="nav_phone_txt">contribution</div></a
+        >
+        <a href="index.html" class="nav_icon_phone">
+          <ion-icon class="nav_icon" name="home-outline"></ion-icon>
+          <div class="nav_phone_txt">home</div></a
+        >
+        <a href="exhibitions.html" class="nav_icon_phone"
+          ><ion-icon class="nav_icon" name="planet-outline"></ion-icon>
+          <div class="nav_phone_txt">exhibitions</div></a
+        >
+        <a href="document.html" class="nav_icon_phone"
+          ><ion-icon class="nav_icon" name="document-text-outline"></ion-icon>
+          <div class="nav_phone_txt">documents</div></a
+        >
       </nav>
     </header>
     <div class="top_opening_hours">
@@ -59,7 +84,7 @@
         The entrance is free for all. There are guided tours of the museum that
         leave every hour. These tours are 70 NOK per person and include a handy
         printed guide of the museum.If you would like to organise a guided tour
-        for your gzzroup of 6 or more people, please contact us to arrange the
+        for your group of 6 or more people, please contact us to arrange the
         tour.
       </div>
       <div class="txt_section_header_contatct">Accessibility</div>
@@ -82,15 +107,23 @@
     <img src="images/egne bilder/robert-bye-F2eHfMwIOxA-unsplash.jpg" class="sentered_img_top" alt="Lots of people in a coffeshop.">
     <form class="contact_form">
         <h1 class="form_h1">Contact us: </h1>
-        <div class="form_box"><label for="name">Name:</label>
-        <input class="input_all" type="text" id="name" name="name" placeholder="Enter name here"> </div>
-        <div class="form_box"><label for="phone">Phone number:</label>
-        <input class="input_all" type="tel" id="phone" name="phone" placeholder="+47 11223344">  </div>
-        <div class="form_box"><label for="email">Email:</label>
-        <input class="input_all" type="email" id="email" name="email" placeholder="Example@email.com"> </div>
-        <div class="form_box"><label for="message">Message:</label>
-        <input class="input_message input_all" type="text" id="message" name="message" placeholder="..."> </div>
-        <a><button class="button_explore button_submit">Submit</button></a>
+        <div class="form_box">
+          <label class="form_label" for="name">Name:</label>
+          <input class="input_all" type="text" id="name" name="name" placeholder="Enter name here"> 
+        </div>
+        <div class="form_box">
+          <label class="form_label" for="phone">Phone number:</label>
+          <input class="input_all" type="tel" id="phone" name="phone" placeholder="+47 11223344">  
+        </div>
+        <div class="form_box">
+          <label class="form_label" for="email">Email:</label>
+          <input class="input_all" type="email" id="email" name="email" placeholder="Example@email.com"> 
+        </div>
+        <div class="form_box">
+          <label class="form_label" for="message">Message:</label>
+          <textarea class="input_message input_all" type="text" id="message" name="message" rows="10" col="50" placeholder="..."></textarea>
+        </div>
+        <a class="button_submit"><button class="button_explore button_submit">Submit</button></a>
     </form>
     <div class="img_boxes_contact">
         <div class="boxes_contact">

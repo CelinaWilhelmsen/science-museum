@@ -1,0 +1,440 @@
+@media (max-width: 1650px) {
+  .policy_box_link {
+    width: 25rem;
+  }
+}
+@media (max-width: 1610px) {
+  .box_two {
+    width: 25rem;
+  }
+  .box_two_txt {
+    font-size: 1.5rem;
+  }
+  .images_contribution {
+    height: 35rem;
+    width: 25rem;
+  }
+}
+@media (max-width: 1530px) {
+  .box_two {
+    width: 20rem;
+  }
+  .exhibit_welcome {
+    font-size: 2rem;
+  }
+  .exhibit_welcome_under {
+    font-size: 1.5rem;
+  }
+  .policy_box_link {
+    width: 20rem;
+  }
+  @media (max-width: 1470px) {
+    .media_img_remove {
+      display: none;
+    }
+    .policy_box_link {
+      width: auto;
+      padding-left: 1rem;
+    }
+    .policy_boxes_img {
+      width: 100%;
+      padding-right: 1rem;
+    }
+    .all_policy_boxes {
+      width: 49%;
+      height: 50rem;
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+    .exhibit_box_img {
+      height: 30rem;
+    }
+    .exhibit_box_txt {
+      height: 30rem;
+    }
+    .txt_section_below {
+      margin-top: 2rem;
+    }
+    .section_left {
+      width: 90%;
+      padding-inline: 5%;
+    }
+    .top_opening_hours {
+      height: 25rem;
+    }
+    .opening_hours_txt {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    .opening_hours_h1 {
+      font-size: 2rem;
+    }
+    .box_two {
+      margin-inline: 2rem;
+    }
+    .box_two_txt {
+      font-size: 1rem;
+    }
+    .icon_youtube {
+      width: 6rem;
+      height: 6rem;
+    }
+  }
+  @media (max-width: 1200px) {
+    .side_box {
+      font-size: 1rem;
+    }
+    .images_contribution {
+      height: 25rem;
+      width: 20rem;
+    }
+    .quote_header {
+      font-size: 2rem;
+    }
+    .quote_txt {
+      font-size: 1.5rem;
+    }
+    .txt_document_h1 {
+      font-size: 2rem;
+    }
+    .txt_document {
+      font-size: 1.5rem;
+    }
+    .h1_contact {
+      font-size: 2rem;
+    }
+    .img_boxes_contact {
+      height: 14rem;
+    }
+    .form_label {
+      font-size: 1rem;
+    }
+    .exhibit_box_img {
+      height: 20rem;
+    }
+    .exhibit_box_txt {
+      height: 20rem;
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 1050px) {
+    h1 {
+      font-size: 2rem;
+    }
+    .navbar {
+      font-size: 0.8rem;
+    }
+    .footer_right {
+      margin-left: 0rem;
+    }
+    .top_opening_hours {
+      height: 18rem;
+    }
+    .txt_section_contact {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+    .txt_section_txt_exhibition {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+    .front_txt {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+    .txt_section_txt {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+    .exhibit_welcome_under {
+      font-size: 1rem;
+    }
+    .txt_section_below {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+    .all_policy_boxes {
+      height: 40rem;
+    }
+    .policy_box_link {
+      height: 19rem;
+    }
+    .exhibit_box_img {
+      height: 15rem;
+    }
+    .exhibit_box_txt {
+      height: 15rem;
+      font-size: 1.2rem;
+    }
+    .input_all {
+      width: 70%;
+    }
+    .boxes_contact {
+      height: 10rem;
+    }
+    .h1_contact {
+      font-size: 1.5rem;
+    }
+    .txt_contact {
+      font-size: 1.5rem;
+    }
+    .contact_img {
+      height: 10rem;
+    }
+    .img_boxes_contact {
+      height: 10rem;
+    }
+    .side_box {
+      height: 22rem;
+      font-size: 0.8rem;
+    }
+    .side_box_text {
+      line-height: 2rem;
+    }
+    .box_top {
+      height: 30rem;
+    }
+    .box_two {
+      display: none;
+    }
+    .box_one {
+      width: 49%;
+      margin-right: 1%;
+      height: auto;
+    }
+    .box_three {
+      width: 49%;
+      margin-left: 1%;
+      height: auto;
+    }
+    .three_boxes_exhibit {
+      height: 14rem;
+    }
+    .box_top_h1 {
+      font-size: 1.5rem;
+    }
+    .box_top_text {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+    .button_explore {
+      height: 3rem;
+      width: 8rem;
+      font-size: 1rem;
+    }
+    .contribute_remove {
+      display: none;
+    }
+    .contribute_keep1 {
+      width: 49%;
+      margin-right: 1%;
+    }
+    .contribute_keep2 {
+      width: 49%;
+      margin-left: 1%;
+    }
+    .logo_header_img {
+      width: 150px;
+    }
+    .three_box_img {
+      width: 100%;
+    }
+  }
+  @media (min-width: 768px) {
+    .header_phone {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.2rem;
+    }
+    .header {
+      display: none;
+    }
+    .header_phone {
+      background-color: #edf1cb;
+      width: 90%;
+      height: 8rem;
+      padding-inline: 5%;
+      display: flex;
+    }
+    .navbar_phone {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .nav_icon_phone {
+      font-size: 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .nav_icon {
+      color: #8d9839;
+    }
+    .nav_phone_txt {
+      padding-top: 0.5rem;
+      font-size: 0.5rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .footer {
+      height: 8rem;
+    }
+    .footer_right {
+      justify-content: center;
+    }
+    .footer_left {
+      text-align: center;
+    }
+    .logo_footer_img {
+      width: 80%;
+    }
+    .footer_icons_box {
+      display: none;
+    }
+    .footer_right_one {
+      display: none;
+    }
+    .footer_right_two {
+      display: none;
+    }
+    .top_img_front {
+      height: 30rem;
+    }
+    .side_box {
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+      height: auto;
+      padding: 0rem;
+      margin-top: -22rem;
+    }
+    .side_box_text {
+      padding-inline: 2rem;
+    }
+    .box_top_right {
+      display: none;
+    }
+    .front_txt {
+      font-size: 0.8rem;
+    }
+    .sentered_img_top {
+      height: 20rem;
+    }
+    .txt_section_header {
+      font-size: 1rem;
+    }
+    .txt_section_txt {
+      font-size: 0.8rem;
+    }
+    .sentered_img {
+      height: 15rem;
+    }
+    .top_opening_hours {
+      flex-direction: column;
+      height: auto;
+    }
+    .opening_hours {
+      width: 100%;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+    }
+    .top_opening_hours_img {
+      width: 100%;
+      padding-left: 0rem;
+    }
+    .txt_section_txt_contact {
+      font-size: 0.8rem;
+    }
+    .sentered_img_top {
+      height: 15rem;
+    }
+    .form_box {
+      flex-direction: column;
+    }
+    .input_all {
+      width: 100%;
+    }
+    .h1_contact {
+      font-size: 1rem;
+    }
+    .txt_contact {
+      font-size: 1rem;
+    }
+    .boxes_contact {
+      height: 6.8rem;
+    }
+    .contact_img {
+      height: 6.8rem;
+    }
+    .img_boxes_contact {
+      height: auto;
+    }
+    .txt_section_header_exhibition {
+      font-size: 1rem;
+    }
+    .txt_section_txt_exhibition {
+      font-size: 0.8rem;
+    }
+    .top_img {
+      height: 25rem;
+    }
+    .quote_header {
+      font-size: 1.2rem;
+    }
+    .quote_txt {
+      font-size: 0.8rem;
+    }
+    .txt_section_header_exhibition {
+      font-size: 1rem;
+    }
+    .txt_section_txt_exhibition {
+      font-size: 0.8rem;
+    }
+    .exhibit_box_txt {
+      font-size: 0.8rem;
+    }
+    .bottom_img {
+      height: 20rem;
+    }
+    .three_boxes_exhibit {
+      height: 10rem;
+    }
+    .exhibit_box_txt {
+      height: 10rem;
+      margin-right: 1rem;
+    }
+    .exhibit_box_img {
+      height: 10rem;
+      padding-left: 0rem;
+    }
+    .top_img2 {
+      height: 20rem;
+    }
+    .all_policy_boxes {
+      height: 30rem;
+    }
+    .link_one {
+      height: 49%;
+      margin-bottom: 1rem;
+    }
+    .link_two {
+      height: 49%;
+    }
+    .txt_document_h1 {
+      font-size: 1.2rem;
+    }
+    .txt_document {
+      font-size: 0.8rem;
+    }
+    .document_header {
+      font-size: 1rem;
+    }
+    .document_info_txt {
+      font-size: 0.8rem;
+    }
+  }
+}

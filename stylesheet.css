@@ -327,7 +327,28 @@ h1 {
   padding-top: 4rem;
   padding-bottom: 4rem;
   margin-bottom: 2rem;
+  width: 90%;
+  padding-inline: 5%;
 }
+
+.form_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form_label {
+  padding-right: 3rem;
+}
+
+.input_all {
+  width: 80%;
+  border: none;
+}
+
+.button_submit {
+  text-align: center;
+}
+
 .form_h1 {
   text-align: center;
   padding-bottom: 2rem;
@@ -338,11 +359,7 @@ input {
   height: 1.5rem;
   border: none;
 }
-.input_message {
-  height: 10rem;
-}
-.input_all {
-}
+
 .img_boxes_contact {
   width: 90%;
   padding-inline: 5%;
