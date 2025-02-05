@@ -319,6 +319,7 @@
     }
     .front_txt {
       font-size: 0.8rem;
+      padding-inline: 2rem;
     }
     .sentered_img_top {
       height: 20rem;
@@ -328,6 +329,7 @@
     }
     .txt_section_txt {
       font-size: 0.8rem;
+      padding-inline: 2rem;
     }
     .sentered_img {
       height: 15rem;
@@ -348,6 +350,7 @@
     }
     .txt_section_txt_contact {
       font-size: 0.8rem;
+      padding-inline: 0rem;
     }
     .sentered_img_top {
       height: 15rem;
@@ -435,6 +438,273 @@
     }
     .document_info_txt {
       font-size: 0.8rem;
+    }
+    @media (max-width: 425px) {
+      .nav_icon_phone {
+        font-size: 2rem;
+        text-align: center;
+      }
+      .nav_phone_txt {
+        font-size: 0.3rem;
+      }
+      .header_phone {
+        height: 6rem;
+      }
+      .side_box_text {
+        font-size: 0.5rem;
+        line-height: 1.5rem;
+      }
+      .box_top_text {
+        font-size: 0.5rem;
+        line-height: 1.5rem;
+      }
+      .box_top {
+        height: 15rem;
+      }
+      .three_boxes {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .front_box_txt {
+        height: 15rem;
+      }
+      .front_txt {
+        font-size: 0.5rem;
+        line-height: 1.5rem;
+        padding-bottom: 2rem;
+      }
+      .sentered_img_top {
+        height: 10rem;
+        margin-top: -2rem;
+      }
+      .txt_section_header {
+        font-size: 0.8rem;
+      }
+      .txt_section_txt {
+        font-size: 0.5rem;
+        line-height: 1.5rem;
+      }
+      .txt_section_front {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .sentered_img {
+        height: 10rem;
+      }
+      .footer {
+        margin-top: 1rem;
+      }
+      .footer_right_three {
+        font-size: 0.8rem;
+      }
+      .top_opening_hours {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+      .opening_hours {
+        margin-bottom: 1rem;
+      }
+      .opening_hours_h1 {
+        font-size: 1rem;
+      }
+      .opening_hours_txt {
+        font-size: 0.8rem;
+      }
+      .txt_section_header_contatct {
+        font-size: 0.8rem;
+        padding-top: 1.5rem;
+      }
+      .txt_section_txt_contact {
+        font-size: 0.5rem;
+        line-height: 1.5rem;
+      }
+      .txt_section_contact {
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+      }
+      .sentered_img_top {
+        margin-top: 0rem;
+      }
+      .contact_form {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+      .form_h1 {
+        padding-bottom: 0rem;
+      }
+      .form_label {
+        font-size: 0.8rem;
+      }
+      .button_submit {
+        margin-top: 1rem;
+      }
+      .contact_img {
+        padding-left: 1rem;
+        height: 5rem;
+      }
+      .boxes_contact {
+        height: 5rem;
+      }
+      .h1_contact {
+        font-size: 0.8rem;
+      }
+      .txt_contact {
+        font-size: 0.8rem;
+      }
+      .footer {
+        height: 6rem;
+      }
+      .top_img {
+        height: 12rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0rem;
+      }
+      .txt_section_exhibition {
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      .txt_section_header_exhibition {
+        padding-top: 1rem;
+        font-size: 0.8rem;
+      }
+      .txt_section_txt_exhibition {
+        font-size: 0.5rem;
+        line-height: 1.5rem;
+      }
+      .images_contribution {
+        height: 15rem;
+      }
+      .txt_section_contribute2 {
+        padding-top: 1rem;
+        margin-top: 1rem;
+      }
+      .quote_museum {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+      .quote_header {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        padding-bottom: 2rem;
+      }
+      .quote_txt {
+        font-size: 0.5rem;
+      }
+      .three_boxes_exhibit {
+        height: 7rem;
+      }
+      .txt_section_header_exhibition {
+        font-size: 0.8rem;
+      }
+      .exhibit_boxes {
+        margin-top: 1rem;
+      }
+      .exhibit_box_txt {
+        font-size: 0.5rem;
+        padding-inline: 2rem;
+        height: 8rem;
+      }
+      .exhibit_box_img {
+        height: 8rem;
+      }
+      .txt_section_below {
+        margin-top: 1rem;
+      }
+      .section_left {
+        padding-inline: 0rem;
+        width: 100%;
+      }
+      .txt_section_below_h1 {
+        padding-bottom: 1rem;
+      }
+      .txt_section_below_header {
+        font-size: 0.8rem;
+      }
+      .txt_section_left {
+        font-size: 0.5rem;
+        line-height: 1.5rem;
+      }
+      .txt_below {
+        padding-bottom: 2rem;
+      }
+      .txt_below_header {
+        font-size: 0.8rem;
+      }
+      .txt_below_txt {
+        font-size: 0.5rem;
+        line-height: 1.5rem;
+      }
+      .bottom_img {
+        height: 8rem;
+        padding-top: 1rem;
+      }
+      .top_img2 {
+        height: 10rem;
+      }
+      .all_policy_boxes {
+        height: 20rem;
+        margin-bottom: 1rem;
+      }
+      .policy_box_link {
+        height: 48%;
+      }
+      .h1_policy {
+        font-size: 0.8rem;
+      }
+      .txt_document_h1 {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+      }
+      .txt_document {
+        font-size: 0.5rem;
+        padding-bottom: 1rem;
+      }
+      .document_img {
+        padding-top: 1rem;
+        height: 10rem;
+      }
+      .document_info {
+        padding-top: 4rem;
+      }
+      .document_header {
+        font-size: 0.8rem;
+        padding-bottom: 0.5rem;
+      }
+      .document_info_txt {
+        font-size: 0.5rem;
+        line-height: 1.5rem;
+        padding-bottom: 1rem;
+      }
+      .button_privacy {
+        margin-top: 0rem;
+      }
+    }
+    @media (max-width: 320px) {
+      .box_top_left {
+        padding-inline: 2rem;
+      }
+      .three_boxes_exhibit {
+        height: 6rem;
+      }
+      .exhibit_box_img {
+        height: 6rem;
+      }
+      .exhibit_box_txt {
+        height: 6rem;
+      }
+      .policy_boxes {
+        flex-direction: column;
+      }
+      .all_policy_boxes {
+        width: 100%;
+        width: auto;
+      }
+      .policy_boxes_img {
+        height: auto;
+      }
     }
   }
 }
