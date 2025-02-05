@@ -240,11 +240,12 @@
       width: 100%;
     }
   }
+  /*
   @media (min-width: 768px) {
     .header_phone {
       display: none;
     }
-  }
+  }*/
   @media (max-width: 768px) {
     h1 {
       font-size: 1.2rem;
